@@ -11,37 +11,30 @@ body{
     background: url("../tela\ de\ login/stacked-waves-haikei.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 125vh;
     width: 100vw;
 }
 
 #container{
   border-radius: 30px;
   width: 350px;
-  height: 450px;
+  height: 600px;
   background: linear-gradient(rgb(0, 174, 255)1%,rgb(21, 0, 255) 50%, rgb(102, 1, 197)90%);
   margin: 0 auto;
-  margin-top: 55px;
+  margin-top: 70px;
   box-shadow: 1px 5px 5px rgba(1, 1, 1, 0.5);
+  margin-bottom: auto;
 }
 
 form{
-  margin-top: -125px;
   margin-left: 25px;
-}
-#circulo {
-  transform: rotate(90deg);
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  clip-path: circle(50% at 0%);
-  background: rgb(252, 253, 255);
+  margin-top: -100px;
 }
 
 
 input{
   text-align: center;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 15px 0px;
   border: rgb(110, 195, 255) solid 2.5px;
   border-radius: 10px;
   background: rgba(207, 206, 206, 0.234);
@@ -50,26 +43,35 @@ input{
 }
 
 #sbmt{
+  margin-top: 10px;
   margin-left: 75px;
   width: 150px;
   height: 50px;
   cursor: pointer;
 }
 #sbmt:hover{
+    box-shadow: 0px 0px 5px rgb(146, 210, 255);
   background-color: rgb(0, 162, 255);
   color: white;
 }
-svg{
-  fill: rgb(102, 184, 255);
-  position: absolute;
-  margin-top: -290px;
-  margin-left: 110px;
-  max-width: 125px;
-  max-height: 125px;
-}
 
-a{
-  color: white;
-  text-decoration: none;
-  margin-bottom: 100px;
+h1{
+    position: absolute;
+    margin-top: -275px;
+    text-shadow: 0px 0px 5px rgb(0, 157, 255);
+    color: rgb(14, 135, 255);
+    margin-left: 60px;
 }
+#circulo {
+    transform: rotate(90deg);
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    clip-path: circle(50% at 0%);
+    background: rgb(252, 253, 255);
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+  }
